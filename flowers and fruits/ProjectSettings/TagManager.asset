@@ -47,3 +47,36 @@ TagManager:
   - name: Top
     uniqueID: 282671577
     locked: 0
+  - name: leg1
+    uniqueID: 2662898367
+    locked: 0
+  - name: leg2
+    uniqueID: 4014667441
+    locked: 0
+  - name: hand2
+    uniqueID: 3945313833
+    locked: 0
+  - name: arm2
+    uniqueID: 2089379547
+    locked: 0
+  - name: body
+    uniqueID: 3163692139
+    locked: 0
+  - name: sword
+    uniqueID: 3735737951
+    locked: 0
+  - name: hand1
+    uniqueID: 3201434931
+    locked: 0
+  - name: arm1
+    uniqueID: 467179235
+    locked: 0
+  - name: head
+    uniqueID: 3951664653
+    locked: 0
+  - name: eye
+    uniqueID: 3410050473
+    locked: 0
+  - name: smile
+    uniqueID: 4031054757
+    locked: 0
