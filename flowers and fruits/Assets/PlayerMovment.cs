@@ -10,13 +10,61 @@ public class PlayerMovment : MonoBehaviour
 
     public float runspeed = 40f;
 
+    public float Speed;
+    public float jumpForce;
+
+    private Rigidbody2D rb;
+
     bool crouch = false;
+
+    private Animator anim;
 
     bool jump = false;
 
     float HorizontalMove = 0f;
-        void Update()
+
+    float Rigidbody2D;
+
+    float velocity;
+
+    float magnitude;
+    
+
+
+
+
+    void start ()
     {
+        anim = GetComponent<Animator>();
+
+        
+
+    }
+        void Update()
+
+    {
+
+        float moveInput = Input.GetAxisRaw("horizontal");
+
+        
+        
+
+          if (moveInput == 0)
+        
+        {
+            anim.SetBool("IsRunning", false);
+
+        }
+        else
+        {
+            anim.SetBool("IsRunning", true);
+        }
+        
+
+
+
+
+
 
         HorizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
 
@@ -36,9 +84,12 @@ public class PlayerMovment : MonoBehaviour
         {
             crouch = false;
         }
+
+
         
         
     }
+
     void FixedUpdate ()
     {
         //move charecter
