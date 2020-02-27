@@ -1572,8 +1572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1956999807}
   runspeed: 40
-  Speed: 0
-  jumpForce: 0
+  Speed: 2
+  jumpForce: 2
 --- !u!95 &1956999813
 Animator:
   serializedVersion: 3
